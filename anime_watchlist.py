@@ -4,10 +4,7 @@ class Anime:
     self.genre = genre
     self.status = status
 
-  def displayHeader():
-    print("===== Anime Watchlist =====")
-
-  def displayInfo(self, displayHeader):
+  def displayInfo(self):
     print("Title:", self.title)
     print("Genre:", self.genre)
     print("Status:", self.status)
