@@ -56,58 +56,83 @@ The methods used in this project are:
 ---
 ## Git and GitHub Questions
 ### 1. What is Git?
-Write your answer here.
+Git is the tool used to create repositories for your code. Whenever you want to make changes to your code, you can use commit to save changes or create branches for it to have a different version of the code that can be looked at.
+
 ### 2. What is GitHub?
-Write your answer here.
+GitHub is the website that hosts the git tool. You can create an account to start using git for your projects while also sharing them to your peers.
+
 ### 3. What is a commit?
-Write your answer here.
+A commit is the process of saving a repository file.
+
 ### 4. What is a branch?
-Write your answer here.
+A branch is a version of a commit used by github users to compare one version with another version of their file.
+
 ### 5. Why do programmers use Git and GitHub?
-Write your answer here.
+
 ---
 ## OOP Planning Questions
 ### 1. What class will you create?
-Write your answer here.
+The class used in this project is:
+- Anime
+The class is used as a blueprint for creating anime objects.
+
 ### 2. What attributes will your class have?
-Write your answer here.
+The attributes used in this project are:
+- title
+- genre
+- status
+
 ### 3. What methods will your class have?
-Write your answer here.
+The methods used in this project are:
+- display_info()
+- update_status()
+
+
 ### 4. How many anime objects will you create?
-Write your answer here.
+Objects are created from the `Anime` class.
+Example objects may include:
+- anime1
+- anime2
+- anime3
+
 ### 5. Why is this project an example of Object-Oriented Programming?
-Write your answer here.
+The program stores anime information such as title, genre, and watching status. This project uses basic Object-Oriented Programming concepts, including class, object, attributes, and methods.
+
 ---
 ## Sample Output
-Paste a sample output from your program here.
-Example:
+
 ```text
 ===== Anime Watchlist =====
-Title: Demon Slayer
-Genre: Action
-Status: Watching
-Title: Spy x Family
-Genre: Comedy
+Title: Steins;Gate
+Genre: Drama, Sci-Fi
+Status: Complete
+
+Title: Kaguya-sama: Love is War -Ultra Romantic-
+Genre: Comedy, Romance
 Status: Completed
-Title: Haikyuu
-Genre: Sports
+
+Title: Fullmetall Alchemist: Brotherhood
+Genre: Action, Drama
 Status: Plan to Watch
+
 Updating anime status...
 Updated Anime:
-Title: Haikyuu
-Genre: Sports
+Title: Fullmetall Alchemist: Brotherhood
+Genre: Action, Drama
 Status: Watching
 ```
 ---
 ## Reflection
 ### 1. What did you learn about Git?
-Write your answer here.
-### 2. What did you learn about GitHub?
-Write your answer here.
-### 3. What did you learn about Python classes?
-Write your answer here.
-### 4. What was the hardest part of this lab?
-Write your answer here.
-### 5. What improvement did you add to your anime system?
 
-Write your answer here.
+
+### 2. What did you learn about GitHub?
+
+
+### 3. What did you learn about Python classes?
+
+
+### 4. What was the hardest part of this lab?
+
+
+### 5. What improvement did you add to your anime system?

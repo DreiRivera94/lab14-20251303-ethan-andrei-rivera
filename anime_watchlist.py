@@ -4,7 +4,10 @@ class Anime:
     self.genre = genre
     self.status = status
 
-  def displayInfo(self):
+  def displayHeader():
+    print("===== Anime Watchlist =====")
+
+  def displayInfo(self, displayHeader):
     print("Title:", self.title)
     print("Genre:", self.genre)
     print("Status:", self.status)
@@ -12,5 +15,11 @@ class Anime:
   def updateStatus(newStatus):
     pass
 
-a_user = Anime("Steins;Gate", "Drama", "Completed")
-a_user.displayInfo()
+anime1 = Anime("Steins;Gate", "Drama, Sci-Fi", "Completed")
+anime1.displayInfo()
+
+anime2 = Anime("Kaguya-sama: Love is War -Ultra Romantic-", "Comedy, Romance", "Completed")
+anime2.displayInfo()
+
+anime3 = Anime("Fullmetall Alchemist: Brotherhood", "Action, Drama", "Plan to Watch")
+anime3.displayInfo()
