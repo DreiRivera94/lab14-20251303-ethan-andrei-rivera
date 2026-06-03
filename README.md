@@ -1,3 +1,10 @@
+# Lab 14 – Anime Watchlist Tracker
+## Student Name
+Ethan Andrei Rivera
+---
+## Project Description
+This project is a simple Anime Watchlist Tracker created using Python.
+
 The program stores anime information such as title, genre, and watching status. This project uses basic
 Object-Oriented Programming concepts, including class, object, attributes, and methods.
 ---
