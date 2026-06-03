@@ -124,15 +124,16 @@ Status: Watching
 ---
 ## Reflection
 ### 1. What did you learn about Git?
-
+Learning Git has been interesting and helpful to say the least because of the features such as repositories, creating branches, pull request, etc, it builds me up to apply the Software Development Life Cycle (SDLC) towards different projects in the future..
 
 ### 2. What did you learn about GitHub?
-
+GitHub is a great website to allow me to push and organize my projects and lab activities into repositoriet without the hassle. Having to commit them as a branch also is a great way to compare versions of code.
 
 ### 3. What did you learn about Python classes?
-
+Classes are essential for making the Python workflow easier. Since it circles around Object oriented programming, there won't be any repetitiveness in writing code, but instead use classes and objects for reusability purposes.
 
 ### 4. What was the hardest part of this lab?
-
+The hardest part of this lab activity is definitely the coding part. As I look into the past lessons, I have also been tinkering with the use of classes and objects and seeing how I'll be able to embed the functionilities to create an OOP centered program.
 
 ### 5. What improvement did you add to your anime system?
+I've essentially added a basic print statement to display the rating of the anime at a scale of 1 (veey bad) - 10 (legendary).
