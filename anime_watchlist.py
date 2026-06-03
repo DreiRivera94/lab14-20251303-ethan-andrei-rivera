@@ -9,8 +9,12 @@ class Anime:
     print("Genre:", self.genre)
     print("Status:", self.status)
 
-  def updateStatus(newStatus):
-    pass
+  def updateStatus(self, newstatus):
+    self.status = newstatus
+    print("Updating Anime Status...")
+    print("Title:", self.title)
+    print("Genre:", self.genre)
+    print("Status:", self.status)
 
 anime1 = Anime("Steins;Gate", "Drama, Sci-Fi", "Completed")
 anime1.displayInfo()
@@ -18,5 +22,7 @@ anime1.displayInfo()
 anime2 = Anime("Kaguya-sama: Love is War -Ultra Romantic-", "Comedy, Romance", "Completed")
 anime2.displayInfo()
 
-anime3 = Anime("Fullmetall Alchemist: Brotherhood", "Action, Drama", "Plan to Watch")
+anime3 = Anime("Fullmetal Alchemist: Brotherhood", "Action, Drama", "Plan to Watch")
 anime3.displayInfo()
+
+anime3.updateStatus("Watching")
